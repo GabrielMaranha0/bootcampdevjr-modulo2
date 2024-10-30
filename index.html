@@ -31,6 +31,7 @@
             justify-content: space-around;
             
             
+            
 
         }
         .header-tittle{
@@ -51,26 +52,43 @@
             width: 50%; 
             background-color: #006f6f; 
             padding: 20px;
+            
                     
         }
         .column-tittle{
             font-size: 22px;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .column-2{
+            color: #ffffff;
             background-color: #009e9e;;
             width: 50%;
             padding: 20px;
 
         }
 
-        .button{
-            margin-top: 20px;
-           
-        }
-        .money{
+        
+        .price{
             font-size: 30px;
+            margin-right: 15px;
+        }
+
+        .button{
+            width: 100%;
+            padding: 15px 32px;
+            color: #006a6a;
+            border-radius: 5px; 
+            border: none;
+            background-color: #cccccc;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .button:hover{
+            background-color: #e9e9e9;
         }
     </style>
 
@@ -95,14 +113,15 @@
                 Assinatura mensal:
                </div>
                <div >
-                <b><apan class="money">R$99,99</apan></b><i>por mês</i>
+                <b><apan class="price">R$99,99</apan></b>
+                <span><i>por mês.</i></span>
                </div>
                <div>
-                <span>Cancele a qualquer momento</span> 
+                Cancele a qualquer momento.
                </div>
                
                
-                <button>Assine agora</button>
+                <button class="button">Assine agora</button>
                
             </div>
 
@@ -111,9 +130,14 @@
                     logo
                 </div>
                 <div>
-                    coluna 2
-                    voce terá acesso
-                    *lista*
+                    Você terá acesso:
+                    <ul>
+                        <li>Projetos exclusivos</li>
+                        <li>Tutoriais</li>
+                        <li>Lives Semanais</li>
+                        <li>Material didático especializado</li>
+                        <li>Fórum</li>
+                        <li>Ofertas de emprego</li>
                     </ul>
                 </div>
 
