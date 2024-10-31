@@ -13,14 +13,33 @@
             border: 0;
             margin: 10px;
         }
+        
         input:focus{
             outline: none;
             box-shadow:  0 0 15px #01b1b1 ;
         }
+
         a{
             color: #e9e9e9 ;
             font-size: 0.8rem;
         }
+
+        button{
+            width: 100%; 
+            padding: 0.9rem 2rem;
+            color: #006a6a;
+            border-radius: 5px; 
+            border: none;
+            background-color: #cccccc;
+            margin-top: 1.25rem;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+    
+        button:hover{               
+            background-color: #e9e9e9;
+        }
+        
         .container{
             background-color: #e9e9e9;
             margin: auto;
@@ -28,8 +47,7 @@
             margin-top: 3.125rem ;
             box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.2);
             border-radius: 10px; 
-            overflow: hidden; 
-            
+            overflow: hidden;   
         }
 
         .header{
@@ -39,16 +57,14 @@
         .flex-container{
             display: flex;
             justify-content: space-around;
-            
-            
-            
-
         }
+
         .header-tittle{
             color: #006f6f;
             font-size: 2rem;
             font-weight: 700;
             margin-bottom: 1.2rem
+
 
         }
         .header-subtittle{
@@ -56,6 +72,7 @@
             margin-bottom: 0.9rem;
             font-size: 1.12rem;
             font-weight: 500;
+
         }
         .column-1{
             color: #ffffff;
@@ -76,7 +93,6 @@
             background-color: #009e9e;;
             width: 50%;
             padding: 0.6rem 1.2rem;
-
         }
 
         
@@ -85,28 +101,10 @@
             margin-right: 0.9rem;
         }
 
-        .button{
-            width: 100%; 
-            padding: 0.9rem 2rem;
-            color: #006a6a;
-            border-radius: 5px; 
-            border: none;
-            background-color: #cccccc;
-            margin-top: 1.25rem;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-
-        .button:hover{
-            background-color: #e9e9e9;
-        }
-
-
-        .image{
+       .image{
             text-align: center;
         }
 
-        
         .register-container{
             background-color: #006a6a;
             padding: 1.2rem;
@@ -118,8 +116,6 @@
         
         .backbutton{
             font-size: 1rem;
-            
-
         }
 
         @media screen and (max-width: 620px) {
